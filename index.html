@@ -4,10 +4,11 @@
             Phone number validation using js
         </title> 
         <link rel="stylesheet" href="stylesheet.css">   
+        <script src="main.js"></script>
     </head>
     <body>
         <div class="p-4">
-            <form id="myform">
+            <form onsubmit="return validateForm()" id="myform">
                 <div>
                 <label for="myform_phone"> Phone: </label>
                 <input type="text" id="myform_phone" name="phone">
